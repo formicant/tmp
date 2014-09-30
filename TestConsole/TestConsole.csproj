@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE20CBE9-F364-4FF0-8E55-E326344CA281}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestConsole</RootNamespace>
+    <AssemblyName>TestConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JetBrains.Annotations">
+      <HintPath>..\packages\JetBrains.Annotations.7.0\lib\net45\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.1.20.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Bcl.Immutable.1.1.20-beta\lib\portable-net45+win8\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleExtensions.cs" />
+    <Compile Include="Formicant\BasicExtensions\Checks.cs" />
+    <Compile Include="Formicant\BasicExtensions\ConditionalExtensions.cs" />
+    <Compile Include="Formicant\BasicExtensions\ParseEnums.cs" />
+    <Compile Include="Formicant\BasicExtensions\ParsePrimitiveTypes.cs" />
+    <Compile Include="Formicant\BasicExtensions\StringFormat.cs" />
+    <Compile Include="Formicant\CollectionExtensions\ArrayExtensions.cs" />
+    <Compile Include="Formicant\CollectionExtensions\BiDic.cs" />
+    <Compile Include="Formicant\CollectionExtensions\DictionaryExtensions.cs" />
+    <Compile Include="Formicant\CollectionExtensions\FreeDic.cs" />
+    <Compile Include="Formicant\CollectionExtensions\ListExtensions.cs" />
+    <Compile Include="Formicant\EnumerableExtensions\CachedEnumerable.cs" />
+    <Compile Include="Formicant\EnumerableExtensions\EnumerableExtensions.cs" />
+    <Compile Include="Formicant\FloatingPointDecomposition\DecimalDecomposition.cs" />
+    <Compile Include="Formicant\FloatingPointDecomposition\DoubleDecomposition.cs" />
+    <Compile Include="Formicant\FloatingPointDecomposition\SingleDecomposition.cs" />
+    <Compile Include="Formicant\FloatingPointDecomposition\ToBinaryExtensions.cs" />
+    <Compile Include="Formicant\IniFile\IniFile.cs" />
+    <Compile Include="Formicant\IniFile\IniFile.Section.cs" />
+    <Compile Include="Formicant\IniFile\IniFile.SectionHeader.cs" />
+    <Compile Include="Formicant\IniFile\IniFile.Setting.cs" />
+    <Compile Include="Formicant\IniFile\IniFile.SettingTypes.cs" />
+    <Compile Include="Formicant\LanguageExtensions\NaturalLanguage.cs" />
+    <Compile Include="Formicant\LanguageExtensions\NumeralExtenions.cs" />
+    <Compile Include="Formicant\NumberExtensions\Number.cs" />
+    <Compile Include="Formicant\NumberExtensions\Number_Cut.cs" />
+    <Compile Include="Formicant\NumberExtensions\Number_DivMod.cs" />
+    <Compile Include="Formicant\NumberExtensions\Number_Order.cs" />
+    <Compile Include="Formicant\Numerics\Ratio.cs" />
+    <Compile Include="Formicant\Numerics\RatioExtensions.cs" />
+    <Compile Include="Formicant\QSvg\QSvg.cs" />
+    <Compile Include="Formicant\QSvg\QSvg_Attributes.cs" />
+    <Compile Include="Formicant\QSvg\QSvg_BasicShapes.cs" />
+    <Compile Include="Formicant\QSvg\QSvg_Path.cs" />
+    <Compile Include="Formicant\QXml\QXml.cs" />
+    <Compile Include="Formicant\StringOperationExtensions\StringOperationExtensions.cs" />
+    <Compile Include="Formicant\Vectors\IntBounds.cs" />
+    <Compile Include="Formicant\Vectors\IntBoundsExtensions.cs" />
+    <Compile Include="Formicant\Vectors\IntVec.cs" />
+    <Compile Include="Formicant\Vectors\IntVecExtensions.cs" />
+    <Compile Include="Formicant\Vectors\Line2.cs" />
+    <Compile Include="Formicant\Vectors\Vector2.cs" />
+    <Compile Include="Formicant\Vectors\Vector2Extensions.cs" />
+    <Compile Include="SymRoman.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

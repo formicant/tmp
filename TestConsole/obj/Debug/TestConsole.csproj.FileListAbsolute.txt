@@ -1,0 +1,30 @@
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe.config
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.dll
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.dll
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.xml
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.xml
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.exe
+c:\users\aakinin\documents\visual studio 2012\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.pdb
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.pdb
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.dll
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.dll
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.xml
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.xml
+C:\Users\aakinin\Documents\GoogleDrive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe.config
+R:\User\Drive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.exe
+R:\User\Drive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.pdb
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.exe
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.dll
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.dll
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\JetBrains.Annotations.xml
+R:\User\Drive\Projects\TestConsole\TestConsole\bin\Debug\System.Collections.Immutable.xml
+R:\User\Drive\Projects\TestConsole\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
